@@ -10,6 +10,7 @@ class PurchaseParam {
   PurchaseParam({
     required this.productDetails,
     this.applicationUserName,
+    this.androidProfileId
   });
 
   /// The product to create payment for.
@@ -24,5 +25,5 @@ class PurchaseParam {
   /// user's Google ID for this field.
   /// For example, you can use a one-way hash of the user’s account name on your server.
   final String? applicationUserName;
-  final String? obfuscatedProfileId;
+  final String? androidProfileId;
 }

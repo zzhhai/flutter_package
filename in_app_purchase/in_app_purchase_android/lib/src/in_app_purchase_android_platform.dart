@@ -136,7 +136,7 @@ class InAppPurchaseAndroidPlatform extends InAppPurchasePlatform {
       (BillingClient client) => client.launchBillingFlow(
         sku: purchaseParam.productDetails.id,
         accountId: purchaseParam.applicationUserName,
-        obfuscatedProfileId: purchaseParam.obfuscatedProfileId,
+        obfuscatedProfileId: purchaseParam.androidProfileId,
         oldSku: changeSubscriptionParam?.oldPurchaseDetails.productID,
         purchaseToken: changeSubscriptionParam
             ?.oldPurchaseDetails.verificationData.serverVerificationData,
