@@ -23,15 +23,15 @@ dependencies:
     sdk: flutter
   in_app_purchase_android:
     git:
-      url: git@github.com:zzhhai/flutter_package.git
+      url: https://github.com/zzhhai/flutter_package.git
       path: in_app_purchase/in_app_purchase_android
   in_app_purchase_platform_interface:
     git:
-      url: git@github.com:zzhhai/flutter_package.git
+      url: https://github.com/zzhhai/flutter_package.git
       path: in_app_purchase/in_app_purchase_platform_interface
   in_app_purchase_storekit:
     git:
-      url: git@github.com:zzhhai/flutter_package.git
+      url: https://github.com/zzhhai/flutter_package.git
       path: in_app_purchase/in_app_purchase_storekit
 
 dev_dependencies:
